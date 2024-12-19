@@ -44,9 +44,14 @@ function Contact() {
     setIsLoading(true);
 
     emailjs
-      .sendForm("service_jndzm3c", "template_v6oddn7", form.current!, {
-        publicKey: "Ll8H5_isYgdFODuAM",
-      })
+      .sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID!,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID!,
+        form.current!,
+        {
+          publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY!,
+        }
+      )
       .then(
         () => {
           console.log("SUCCESS!");
