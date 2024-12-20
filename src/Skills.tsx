@@ -16,7 +16,7 @@ function Skills() {
           Skills
         </h1>
         <hr className="border-2 my-5 max-w-10 mx-auto border-teal-500" />
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-2">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
           <Skill logo={reactLogo} name="React.js" />
           <Skill logo={tsLogo} name="TypeScript" />
           <Skill logo={nodeLogo} name="Node.js" />
