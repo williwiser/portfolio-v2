@@ -7,7 +7,7 @@ import mysqlLogo from "./assets/logos/mysql_logo.png";
 import mongoDBLogo from "./assets/logos/mongodb_logo.png";
 import tailwindLogo from "./assets/logos/tailwind_logo.svg";
 import javaLogo from "./assets/logos/java_logo.png";
-import csharpLogo from "./assets/logos/csharp_Logo.png";
+import csharpLogo from "./assets/logos/csharp_logo.png";
 function Skills() {
   return (
     <section id="skills" className="w-full overflow-hidden">
