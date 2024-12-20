@@ -152,6 +152,7 @@ function Contact() {
               ref={form}
               onSubmit={sendEmail}
               className="flex flex-col items-center gap-5 max-w-md rounded-md shadow-md w-full"
+              data-netlify="true"
             >
               <label className=" w-full">
                 <span className="text-gray-300 text-sm mb-1 inline-block">
