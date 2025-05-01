@@ -22,7 +22,7 @@ function Hero() {
   return (
     <section className="w-full h-screen overflow-hidden">
       <div className="container mx-auto max-w-screen-xl px-8 flex flex-col lg:flex-row gap-5 lg:gap-0 justify-center lg:justify-between items-center pt-5 h-full">
-        <div className="text-left p-8">
+        <div className="text-center md:text-left p-8">
           <h1
             className={`font-semibold text-6xl max-w-5xl transition-all duration-700 transform ${
               headingVisible
