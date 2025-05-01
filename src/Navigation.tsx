@@ -46,7 +46,7 @@ function Navigation() {
     <nav
       className={`w-full fixed min-h-20 ${
         isScrolled ? "bg-[#020617] bg-opacity-95 shadow-lg" : "bg-transparent"
-      } transition-colors duration-300`}
+      } transition-colors duration-300 z-10`}
     >
       <div className="container mx-auto px-6 max-w-screen-xl flex justify-between items-center py-5">
         <a

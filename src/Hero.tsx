@@ -10,19 +10,19 @@ import { useEffect, useState } from "react";
 
 function Hero() {
   const [headingVisible, setHeadingVisible] = useState(false);
-  const [nameVisible, setNameVisible] = useState(false);
+  const [nameColored, setNameColored] = useState(false);
   const [taglineVisible, setTaglineVisible] = useState(false);
 
   useEffect(() => {
     // Set initial animation timeouts
     setTimeout(() => setHeadingVisible(true), 300);
-    setTimeout(() => setNameVisible(true), 1200);
+    setTimeout(() => setNameColored(true), 1200); // Color changes after the text slides in
     setTimeout(() => setTaglineVisible(true), 2000);
   }, []);
   return (
     <section className="w-full h-screen overflow-hidden">
       <div className="container mx-auto max-w-screen-xl px-8 flex flex-col lg:flex-row gap-5 lg:gap-0 justify-center lg:justify-between items-center pt-5 h-full">
-        <div className="text-center md:text-left p-8 text-pretty">
+        <div className="text-left p-8">
           <h1
             className={`font-semibold text-6xl max-w-5xl transition-all duration-700 transform ${
               headingVisible
@@ -32,8 +32,8 @@ function Hero() {
           >
             I'm
             <span
-              className={`text-lime-400 font-bold transition-all duration-500 ${
-                nameVisible ? "opacity-100 scale-100" : "opacity-0 scale-90"
+              className={`font-bold transition-colors duration-700 ${
+                nameColored ? "text-lime-400" : "text-white"
               }`}
             >
               {" "}
