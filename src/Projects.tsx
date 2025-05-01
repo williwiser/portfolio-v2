@@ -1,5 +1,5 @@
-import Project from "./Project";
-import thumbnail from "./assets/react-1-logo-png-transparent.png";
+//import Project from "./Project";
+//import thumbnail from "./assets/react-1-logo-png-transparent.png";
 function Projects() {
   return (
     <section id="projects" className="w-full overflow-hidden">
@@ -8,7 +8,10 @@ function Projects() {
           Projects
         </h1>
         <hr className="border-2 my-5 max-w-10 mx-auto border-teal-500" />
-
+        <p className="text-center p-4 bg-slate-600 rounded-md">
+          No projects here yet, but stay tuned!
+        </p>
+        {/*
         <ul className="flex flex-col gap-2">
           <li>
             <Project
@@ -30,7 +33,7 @@ function Projects() {
               url="https://github.com/williwiser"
             />
           </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
   );

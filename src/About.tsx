@@ -17,7 +17,7 @@ function About() {
             className="size-72 object-cover border-b-8 border-teal-600 border-opacity-55 rounded-full"
           />
           <div>
-            <p className="text-center lg:text-left">
+            <p className="text-center lg:text-left text-balance">
               Hi, I'm William, a full-stack developer fueled by a passion for
               building intuitive and efficient web applications. When I'm not
               coding, you'll often find me strumming my guitar, gazing at the
