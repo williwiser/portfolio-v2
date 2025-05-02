@@ -8,7 +8,7 @@ function Projects() {
           Projects
         </h1>
         <hr className="border-2 my-5 max-w-10 mx-auto border-teal-500" />
-        <p className="text-center p-4 bg-slate-600 rounded-md">
+        <p className="text-center p-4 bg-slate-600/60 rounded-md">
           No projects here yet, but stay tuned!
         </p>
         {/*
